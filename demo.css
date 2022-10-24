@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}   
+html{
+    position: relative;
+}
+header {
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    padding: 10px;
+    width: 100%;
+    overflow: auto;
+    /* max-height: 6rem ; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* position: relative;#3498db */
+    background-color: #3498db;
+}
+header span{
+    color: rgb(10,10,100);
+    font-weight: 10px;
+}
+ul.menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header  ul.menu li .list-in{
+    display: none;
+    position: absolute;
+
+}
+header  ul.menu li:hover .list-in{
+    display: block;
+
+}
+ul.menu li{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    margin: 0 1.5rem;
+}
+img{
+    border-radius: 25px;
+    width: 30%;
+}
+
+header div{
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.list-in li{
+    margin: 2px;
+    padding: 2px;
+    font-size: 18px;
+    /* padding: 3px; */
+    border: 2px solid white;
+    background-color: #dcdde1;
+}
+.list-in li:hover{
+    background-color: #e84118;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    background-color: aliceblue;
+}
+.bate{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .logo{
+    padding: 20px;    display: flex;
+
+}
+header h2{
+    margin: 10px;
+}
+.menu a{
+    border-radius: 6px;
+    border: 2px solid  #3498db;
+    padding: 5px
+};
+main{
+    background-color: #8395a7;
+    width: 100%;
+}
+main .search{
+    display: flex;
+    padding: 10px;
+    background-color: #f3a683;
+    border-radius: 4px;
+}
+.input{
+    flex:0.5;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.name{
+    min-width: 48px;
+}
+main .search{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+/* slider  */
+.slider{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #8395a7;
+    border-radius: 10px;
+}
+.slider_img{
+    display: flex;
+    margin:10px;
+}
+.slider_img img{
+    width: 100%;
+    /* margin: 10px; */
+}
+.slider input{
+    display: none;
+}
+.lableslider{
+    display: flex;
+    justify-content: center;
+}
+.lableslider label{
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.lableslider label:hover{
+    background-color: #546de5;
+}
+#img1:checked ~.imgslider1{
+    margin-left: -100%;
+}
+#img2:checked ~.imgslider2{
+    margin-left: -200%;
+}
+#img3:checked ~.imgslider3{
+    margin-left: -300%;
+}
+#img4:checked ~.imgslider4{
+    margin-left: -400%;
+}
+/* movie */
+.content{
+    background-color: #3498db;
+    min-height: 100vh;
+    display: flex;
+}
+.content .movie{
+    width: 75%;
+    min-height: 100vh;
+    margin: 12px;
+    box-sizing: border-box;
+}
+.dong{
+    display: flex;
+    justify-content: space-around;
+}
+.content .movie .phim{
+    margin: 10px;
+    width: 200px;
+    height: 100%;
+    flex: 0.9;
+    
+}
+.movie img{
+    width: 75%;
+}
+.content .movie .phim a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    text-transform:uppercase;
+    font-weight: 300;
+    text-shadow: 9in;
+    padding-top: 10px;
+}
+.content .movie p{
+    font-size: 18px;
+    font-weight: 100;
+    padding: 3px;
+    margin-top: 4px;
+}
+.muave{
+    background-color: #ff5e57;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+}
+.muave a{
+    margin: 0 auto;
+    padding: 3px;
+}
+.ve{
+    margin-bottom: 0;
+}
+.content .movie a:hover{
+    color: #ffc048;
+}
+.phim img:hover{
+    width: 78%;
+    transition: 0.2s;
+    background-color: #dcdde1;
+}
+.trailer{
+    padding: 10px;
+    margin: 10px;
+    border: 8px solid pink ;
+    border-radius: 2px;
+    border-radius: 10px;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    min-height: 30vh;
+    padding: 10px;
+    font-size: 18px;
+    color: #3498db;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: #3498db;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
